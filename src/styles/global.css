@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.title-game-list, .title-game-details {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .title-game-list {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title-game-details {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+
