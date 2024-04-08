@@ -1,71 +1,71 @@
-# Catalogo de Games com API RAWG GAMES
+# Games Catalog 
 
-Este projeto consiste em um catálogo de games desenvolvido utilizando React com Vite e Tailwind CSS, integrado com a API RAWG GAMES.
+This project consists of a game catalog developed using React with Vite and Tailwind CSS, integrated with the RAWG GAMES API. It is deployed on Vercel and can be accessed via the following link: https://games-catalog-psi.vercel.app
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - React
 - Vite
 - Tailwind CSS
 - Axios
 
-## Pré-requisitos
+## Prerequisites
 
-- Node.js instalado (v14.x ou superior)
-- npm ou yarn
+- Node.js installed (v14.x or higher)
+- npm or yarn
 
-## Como Executar
+## How to Run
 
-1. Clone este repositório:
+1. Clone this repository:
 
 git clone https://github.com/IcaroWil/Games-Catalog
 
-2. Acesse o diretório do projeto:
+2. Access the project directory:
 
 cd games-catalog
 
-3. Instale as dependências:
+3. Install the dependencies:
 
-Com npm:
+Using npm:
 
 npm install react react-dom vite tailwindcss postcss autoprefixer axios react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons 
 
-Com yarn:
+Using yarn:
 
 yarn add react react-dom vite tailwindcss postcss autoprefixer axios react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 
-4. Execute o projeto:
+4. Run the project:
 
-Com npm:
+Using npm:
 
 npm run dev
 
-5. O projeto estará disponível em http://127.0.0.1:5173/ no seu navegador.
+5. The project will be available at http://127.0.0.1:5173/ in your browser.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `src/components`: Componentes React utilizados no projeto.
-- `src/styles`: Estilos globais e CSS específicos do projeto.
-- `src/api.js`: Arquivo para realizar chamadas à API RAWG GAMES.
-- `src/App.jsx`: Componente principal que configura as rotas e inicia a aplicação.
+- `src/components`: React components used in the project.
+- `src/styles`: Global styles and project-specific CSS.
+- `src/api.js`: File for making calls to the RAWG GAMES API.
+- `src/App.jsx`: Main component that sets up the routes and starts the application.
 
-## Funcionalidades
+## Features
 
-- Visualização da lista de jogos.
-- Pesquisa de jogos por nome.
-- Visualização detalhada de cada jogo.
+- Viewing the game list.
+- Searching for games by name.
+- Detailed viewing of each game.
 
-## Autor
+## Author
 
 Icaro Oliveira <icarofaria11@gmail.com>
 
-## Links Úteis
+## Useful Links
 
 - [API RAWG GAMES](https://rawg.io/apidocs)
-- [Documentação do React](https://reactjs.org/docs/getting-started.html)
-- [Documentação do Vite](https://vitejs.dev/guide/)
-- [Documentação do Tailwind CSS](https://tailwindcss.com/docs)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Vite Documentation](https://vitejs.dev/guide/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+This project is licensed under the MIT License.  See the [LICENSE](LICENSE) file for more details.
