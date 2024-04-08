@@ -1,6 +1,6 @@
 # Games Catalog 
 
-This project consists of a game catalog developed using React with Vite and Tailwind CSS, integrated with the RAWG GAMES API. It is deployed on Vercel and can be accessed via the following link: https://games-catalog-psi.vercel.app
+This project consists of a game catalog developed using React with Vite and Tailwind CSS, integrated with the RAWG GAMES API. It is deployed on Vercel and can be accessed via the following link: [Games Catalog](https://games-catalog-psi.vercel.app).
 
 ## Technologies Used
 
