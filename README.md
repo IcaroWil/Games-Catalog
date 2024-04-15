@@ -24,29 +24,31 @@ git clone https://github.com/IcaroWil/Games-Catalog
 
 cd games-catalog
 
+
 3. Install the dependencies:
 
-Using npm:
+- Using npm:
 
-npm install react react-dom vite tailwindcss postcss autoprefixer axios react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons 
+npm install react react-dom vite tailwindcss postcss autoprefixer axios react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 
-Using yarn:
+- Using yarn:
 
 yarn add react react-dom vite tailwindcss postcss autoprefixer axios react-router-dom @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 
 4. Run the project:
 
-Using npm:
+- Using npm:
 
 npm run dev
 
-5. The project will be available at http://127.0.0.1:5173/ in your browser.
+
+5. The project will be available at [http://localhost:5173/](http://localhost:5173/) in your browser.
 
 ## Project Structure
 
 - `src/components`: React components used in the project.
 - `src/styles`: Global styles and project-specific CSS.
-- `src/api.js`: File for making calls to the RAWG GAMES API.
+- `src/api.js`: File for making calls to the RAWG GAMES API. **Please note that you need to replace `'YOUR_API_KEY'` in `src/api.js` with your  actual RAWG API key.**
 - `src/App.jsx`: Main component that sets up the routes and starts the application.
 
 ## Features
@@ -66,6 +68,9 @@ Icaro Oliveira <icarofaria11@gmail.com>
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-## License
+**Please note:** In `src/components/GameDetails` and `src/api.js`, you need to use your own API key. Replace `'YOUR_API_KEY'` with your actual RAWG API key.
 
-This project is licensed under the MIT License.  See the [LICENSE](LICENSE) file for more details.
+## Application Screenshots
+
+![Game List](screenshots/game_list.png)
+![Game Details](screenshots/game_details.png)
