@@ -4,7 +4,7 @@ import axios from 'axios';
 import PropTypes from 'prop-types';
 import '../styles/global.css';
 
-const API_KEY = '906e377d7e03412b8aeafd22652a3d82';
+const API_KEY = 'YOUR_API_KEY';
 const fetchGameDetailsURL = (id) => `https://api.rawg.io/api/games/${id}?key=${API_KEY}`;
 
 const GameDetails = () => {

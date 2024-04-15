@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '906e377d7e03412b8aeafd22652a3d82';
+const API_KEY = 'YOUR_API_KEY';
 
 const fetchGames = async () => {
   try {
